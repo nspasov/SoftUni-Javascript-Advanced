@@ -193,6 +193,8 @@ getDays = (month,year) => new Date(year, month, 0).getDate();
 
 print = (a) => {
 
+    if(!a)
+        a = 5;
 
     for(let i = 0; i < a; i++){
         let print = '';
